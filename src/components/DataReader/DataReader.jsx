@@ -1,19 +1,26 @@
 import { data } from "../../data/data";
 
 export function DataReader() {
-    let text = "null";
 
-    if (data.length === 10) {
-        if (data[1][0] === 'Slot') {
-            text = "true";
-        } else {
-            text = "MAN";
-        }
-    } else {
-        text = "Data not loaded or invalid format";
-    }
+    const head = data[0];
+    const content = data.slice(1)
 
     return (
-        <p>{text}</p>
-    );
+        <table>
+            <thead>
+                <tr>
+                    {head.map((header, index) => (<th key={index}>{header}</th>))};
+                </tr>
+            </thead>
+            <tbody>
+                {content.map((row, rowIndex) => (
+                    <tr key={rowIndex}>
+                        {row.map((cellData, cellIndex) => (
+                            <td key={cellIndex}>{cellData}</td>
+                        ))}
+                    </tr>
+                ))}
+            </tbody>
+        </table>
+    )
 }

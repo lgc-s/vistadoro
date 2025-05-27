@@ -15,7 +15,7 @@ function App() {
                 <Text type="Title">Welcome to Vistadoro</Text>
                 <Text type="Normal">Vistadoro is an app able to receive a .js data file and turn it into a fully visible table.</Text>
                 <Text type="Normal">There are some options available to use. on clicking on one of them, the table will be loaded</Text>
-                <Button>9 ITENS</Button>
+                <Button>Table</Button>
                 <DataReader />
             </Content>
         </main>
