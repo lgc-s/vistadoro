@@ -1,0 +1,22 @@
+.button {
+    color: rgb(31, 31, 31);
+    font-size: 16px;
+}
+
+.error {
+    color: rgb(160, 0, 0);
+    font-size: 18px;
+}
+
+
+.normal {
+    color: rgb(63, 63, 63);
+    font-size: 24px;
+    margin: 8px;
+}
+
+.title {
+    color: rgb(31, 31, 31);
+    font-size: 32px;
+    margin: 16px;
+}
