@@ -4,20 +4,20 @@
 
 .head {
     background-color: rgb(223, 223, 223);
-    border-bottom: 2px solid rgb(191, 191, 191);
+    border: 1px solid rgb(191, 191, 191);
     color: rgb(31, 31, 31);
     margin: 4px;
-    padding: 8px;
+    padding: 4px;
 }
 
 .row {
     background-color: rgb(223, 223, 223);
-    border-bottom: 2px solid rgb(191, 191, 191);
+    border: 1px solid rgb(191, 191, 191);
     color: rgb(31, 31, 31);
     margin: auto;
     min-width: 64px;
     text-align: center;
-    padding: 8px;
+    padding: 4px;
 }
 
 .row div {

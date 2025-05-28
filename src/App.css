@@ -5,8 +5,7 @@ body {
 }
 
 table {
-    border: 2px solid rgb(191, 191, 191);
-    border-radius: 16px;
+    border: 1px solid rgb(191, 191, 191);
     border-spacing: 0px;
     margin: 32px 0;
     overflow: hidden;

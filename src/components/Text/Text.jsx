@@ -13,6 +13,10 @@ export function Text(props) {
         return (
             <div className="button">{props.children}</div>
         )
+    } else if (props.type === "Table") {
+        return (
+            <div className="table">{props.children}</div>
+        )
     } else {
         return (
             <div className="error">Text type not Recognized</div>
