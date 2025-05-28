@@ -1,0 +1,28 @@
+.head {
+    background-color: rgb(223, 223, 223);
+    border: 1px solid rgb(191, 191, 191);
+    color: rgb(31, 31, 31);
+    margin: 4px;
+    padding: 8px;
+}
+
+.row {
+    background-color: rgb(223, 223, 223);
+    border: 1px solid rgb(191, 191, 191);
+    color: rgb(31, 31, 31);
+    margin: auto;
+    min-width: 64px;
+    text-align: center;
+    padding: 8px;
+}
+
+.row div {
+    align-items: center;
+    display: flex;
+    justify-items: start;
+    margin-left: 4px;
+}
+
+.row div img {
+    margin-right: 4px;
+}
