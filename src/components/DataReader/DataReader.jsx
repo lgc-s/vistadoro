@@ -17,6 +17,8 @@ import plaza from '../../image/dataImg/plaza.png';
 import trinidense from '../../image/dataImg/trinidense.png';
 
 import league from '../../image/dataImg/league.png';
+import cup from '../../image/dataImg/cup.png';
+import objective from '../../image/dataImg/objective.png';
 
 export function DataReader() {
     
@@ -65,22 +67,27 @@ export function DataReader() {
                             <td className="row" key={cellIndex}>
                                 {cellIndex === 1 ? (
                                     <div>
-                                        <img src={getFlagImage(cellData)} alt={`${cellData} flag`}/>
+                                        <img className="flag margin-r" src={getFlagImage(cellData)} alt={`${cellData} flag`}/>
                                         {cellData}
                                     </div>
                                 ) : null}
                                 {cellIndex === 2 ? (
                                     <div>
-                                        <img src={getClubLogo(cellData)}alt={`${cellData} logo`}/>
+                                        <img className="margin-r" src={getClubLogo(cellData)}alt={`${cellData} logo`}/>
                                         {cellData}
                                     </div>
                                 ) : null}                    
                                 {cellIndex === 3 ? (
                                     <div>
                                         {cellData.split(', ').map((trophyType, tIndex) => (
-                                            trophyType === 'I' ? (
-                                                <img key={tIndex} src={league} alt="Trophy"/>
-                                            ) : null
+                                            trophyType === 'I' && tIndex === 0? (
+                                                <img className="trophy" key={tIndex} src={league} alt="Trophy"/>
+                                            ) : trophyType === 'I' && tIndex === 1? (
+                                                <img className="trophy" key={tIndex} src={cup} alt="Cup"/>
+                                            ) : trophyType === 'I' && tIndex === 2? (
+                                                <img className="trophy" key={tIndex} src={objective} alt="Objective"/>
+                                            ) : null 
+                                            
                                         ))}
                                     </div>
                                 ) : null}            
