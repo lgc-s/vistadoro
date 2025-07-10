@@ -15,9 +15,9 @@
     border: 1px solid rgb(191, 191, 191);
     color: rgb(31, 31, 31);
     margin: auto;
-    min-width: 64px;
     text-align: center;
     padding: 4px;
+    padding-right: 8px;
 }
 
 .row div {
