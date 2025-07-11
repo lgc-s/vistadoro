@@ -3,6 +3,7 @@ import './App.css'
 import { Content } from './components/Content/Content';
 import { DataReader } from './components/DataReader/DataReader';
 import { Header } from './components/Header/Header';
+import { Link } from './components/Link/Link'
 import { Text } from './components/Text/Text'
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
                 <DataReader />
             </Content>
         </main>
-        <Text type="Footer">Made by LGC-S</Text>
+        <Text type="Footer">Made by <Link address="https://www.linkedin.com/in/lgc-s/">LGC-S</Link></Text>
     </div>
   );
 }

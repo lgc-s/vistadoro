@@ -1,6 +1,6 @@
-import "./Button.css"
-
 import { Text } from '../Text/Text'
+
+import "./Button.css"
 
 export function Button(props) {
     return (

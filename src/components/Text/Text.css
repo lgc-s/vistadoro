@@ -25,6 +25,12 @@
     right: 0;
 }
 
+.menu {
+    color: rgb(95, 95, 95);
+    font-family: Outfit;
+    font-size: 16px;
+}
+
 .normal {
     color: rgb(63, 63, 63);
     font-family: Outfit;

@@ -1,5 +1,4 @@
 import { data } from "../../data/data";
-
 import { Text } from '../../components/Text/Text'
 
 import "./DataReader.css"
