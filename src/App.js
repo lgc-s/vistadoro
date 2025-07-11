@@ -12,11 +12,12 @@ function App() {
         <main>
             <Content>
                 <Text type="Title">Welcome to <b>Vistadoro</b></Text>
-                <Text type="Normal">Vistadoro is an app able to receive a .js data file and turn it into a basic table.</Text>
-                <Text type="Normal">There are some theme options available to use. on clicking on one of them, the site design will be changed</Text>
+                <Text type="Normal">Vistadoro is an <b>ReactJS App</b> able to receive a .js data file and turn it into a basic table.</Text>
+                <Text type="Normal">There are some theme options available to use. on clicking on one of them, the site design will be <b>changed</b>.</Text>
                 <DataReader />
             </Content>
         </main>
+        <Text type="Footer">Made by LGC-S</Text>
     </div>
   );
 }

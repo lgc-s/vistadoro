@@ -1,11 +1,12 @@
 body {
+    background-color: rgb(247, 247, 247);
     margin: 0;
-    background-color: rgb(239, 239, 239);
     mask-image: -webkit-radial-gradient(white, black);
 }
 
 table {
-    border: 1px solid rgb(191, 191, 191);
+    border: 2px solid rgb(191, 191, 191);
+    border-radius: 16px;
     border-spacing: 0px;
     margin: 32px 0;
     overflow: hidden;
@@ -13,4 +14,8 @@ table {
 
 tr:last-child td {
     border-bottom: 0px;
+}
+
+.App {
+    height: 100vh;
 }

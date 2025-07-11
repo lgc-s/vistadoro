@@ -17,6 +17,10 @@ export function Text(props) {
         return (
             <div className="table">{props.children}</div>
         )
+    } else if (props.type === "Footer") {
+        return (
+            <div className="footer">{props.children}</div>
+        )
     } else {
         return (
             <div className="error">Text type not Recognized</div>

@@ -1,31 +1,32 @@
+tr td:first-child div {
+    justify-content: center;
+}
+
 .flag {
     border: 2px solid rgb(191, 191, 191);
 }
 
 .head {
-    background-color: rgb(223, 223, 223);
-    border: 1px solid rgb(191, 191, 191);
+    background-color: rgb(191, 191, 191);
     color: rgb(31, 31, 31);
     margin: 4px;
     padding: 4px;
 }
 
+.margin-r {
+    margin-right: 4px;
+}
+
 .row {
     background-color: rgb(223, 223, 223);
-    border: 1px solid rgb(191, 191, 191);
     color: rgb(31, 31, 31);
     margin: auto;
     text-align: center;
-    padding: 4px;
-    padding-right: 8px;
+    padding: 8px;
 }
 
 .row div {
     align-items: center;
     display: flex;
     justify-items: start;
-}
-
-.margin-r {
-    margin-right: 4px;
 }

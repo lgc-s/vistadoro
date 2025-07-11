@@ -4,34 +4,43 @@
 }
 
 .button {
-    font-family: Outfit;
     color: rgb(31, 31, 31);
+    font-family: Outfit;
     font-size: 21px;
 }
 
 .error {
-    font-family: Outfit;
     color: rgb(160, 0, 0);
+    font-family: Outfit;
     font-size: 18px;
 }
 
+.footer {
+    bottom: 0;
+    color: rgb(95, 95, 95);
+    font-family: Outfit;
+    font-size: 24px;
+    padding: 32px;
+    position: fixed;
+    right: 0;
+}
 
 .normal {
-    font-family: Outfit;
     color: rgb(63, 63, 63);
+    font-family: Outfit;
     font-size: 18px;
     margin: 8px;
 }
 
 .table {
-    font-family: Outfit;
     color: rgb(31, 31, 31);
+    font-family: Outfit;
     font-size: 16px;
 }
 
 .title {
-    font-family: Outfit;
     color: rgb(31, 31, 31);
+    font-family: Outfit;
     font-size: 24px;
     margin: 16px;
 }
