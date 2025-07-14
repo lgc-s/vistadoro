@@ -2,13 +2,6 @@
     font-family: Outfit;
     src: url(../../fonts/outfit.ttf);
 }
-
-.button {
-    color: rgb(31, 31, 31);
-    font-family: Outfit;
-    font-size: 21px;
-}
-
 .error {
     color: rgb(160, 0, 0);
     font-family: Outfit;

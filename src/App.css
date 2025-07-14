@@ -16,6 +16,8 @@ tr:last-child td {
     border-bottom: 0px;
 }
 
-.App {
-    height: 100vh;
+.button-menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
 }
