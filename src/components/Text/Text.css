@@ -2,15 +2,15 @@
     font-family: Outfit;
     src: url(../../fonts/outfit.ttf);
 }
+
 .error {
-    color: rgb(160, 0, 0);
+    color: rgb(150, 0, 0);
     font-family: Outfit;
     font-size: 18px;
 }
 
 .footer {
     bottom: 0;
-    color: rgb(95, 95, 95);
     font-family: Outfit;
     font-size: 24px;
     padding: 32px;
@@ -18,28 +18,68 @@
     right: 0;
 }
 
-.menu {
+.footer.base {
     color: rgb(95, 95, 95);
+    transition: ease 0.5s;
+}
+
+.footer.dark {
+    color: rgb(156, 156, 156);
+    transition: ease 0.5s;
+}
+
+.menu {
     font-family: Outfit;
     font-size: 16px;
 }
 
+.menu.base {
+    color: rgb(95, 95, 95);
+    transition: ease 0.5s;
+}
+
+.menu.dark {
+    color: rgb(156, 156, 156);
+    transition: ease 0.5s;
+}
+
 .normal {
-    color: rgb(63, 63, 63);
     font-family: Outfit;
     font-size: 18px;
     margin: 8px;
 }
 
+.normal.base {
+    color: rgb(63, 63, 63);
+}
+
+.normal.dark {
+    color: rgb(191, 191, 191);
+}
+
 .table {
-    color: rgb(31, 31, 31);
     font-family: Outfit;
     font-size: 16px;
 }
 
-.title {
+.table.base {
     color: rgb(31, 31, 31);
+}
+
+.table.dark {
+    color: rgb(223, 223, 223);
+}
+
+.title {
     font-family: Outfit;
     font-size: 24px;
     margin: 16px;
+}
+
+.title.base {
+    color: rgb(31, 31, 31);
+}
+
+.title.dark {
+    color: rgb(223, 223, 223);
 }

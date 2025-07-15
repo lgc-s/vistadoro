@@ -1,29 +1,35 @@
+import { useContext } from "react";
+import { ThemeContext } from "../Theme/ThemeContext";
+
 import "./Text.css"
 
 export function Text(props) {
+
+    const { theme } = useContext(ThemeContext);
+
     if (props.type === "Title") {
         return (
-            <div className="title">{props.children}</div>
+            <div className={`title ${theme}`}>{props.children}</div>
         )
     } else if (props.type === "Normal") {
         return (
-            <div className="normal">{props.children}</div>
+            <div className={`normal ${theme}`}>{props.children}</div>
         )
     } else if (props.type === "Button") {
         return (
-            <div className="button">{props.children}</div>
+            <div className={`button ${theme}`}>{props.children}</div>
         )
     } else if (props.type === "Table") {
         return (
-            <div className="table">{props.children}</div>
+            <div className={`table ${theme}`}>{props.children}</div>
         )
     } else if (props.type === "Footer") {
         return (
-            <div className="footer">{props.children}</div>
+            <div className={`footer ${theme}`}>{props.children}</div>
         )
     } else if (props.type === "Menu") {
         return (
-            <div className="menu">{props.children}</div>
+            <div className={`menu ${theme}`}>{props.children}</div>
         )
     } else {
         return (

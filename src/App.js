@@ -1,5 +1,7 @@
 import './App.css'
 
+import { useContext } from "react";
+import { ThemeContext } from "./components/Theme/ThemeContext";
 import { Button } from './components/Button/Button';
 import { Content } from './components/Content/Content';
 import { DataReader } from './components/DataReader/DataReader';
@@ -8,8 +10,10 @@ import { Link } from './components/Link/Link'
 import { Text } from './components/Text/Text'
 
 function App() {
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <div className="App">
+    <div className={`App ${theme}`}>
         <Header/>
         <main>
           <Content>
