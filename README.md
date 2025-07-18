@@ -11,7 +11,7 @@
 * [Running Vistadoro](#running-vistadoro)
 
 ## About
-- Vistadoro is an experimental ReactJS App where from a simple date sheet you can generate visual tables with an unique user inferface!
+- Vistadoro is an experimental ReactJS App where from a simple data sheet you can generate visual tables with an unique user inferface!
 
 ## Vistadoro Features
 - ✅ Read simple .js data files
