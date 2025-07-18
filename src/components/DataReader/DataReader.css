@@ -9,14 +9,31 @@ tr td:first-child div {
 
 .head.base {
     background-color: rgb(191, 191, 191);
-    color: rgb(31, 31, 31);
     transition: ease 0.5s;
-
 }
 
 .head.dark {
     background-color: rgb(63, 63, 63);
-    color: rgb(223, 223, 223);
+    transition: ease 0.5s;
+}
+
+.head.lava {
+    background-color: rgb(31, 31, 31);
+    transition: ease 0.5s;
+}
+
+.head.blue {
+    background-color: rgb(95, 177, 255);
+    transition: ease 0.5s;
+}
+
+.head.pink {
+    background-color: rgb(253, 155, 253);
+    transition: ease 0.5s;
+}
+
+.head.xtra {
+    background-color: rgb(255, 255, 255);
     transition: ease 0.5s;
 }
 
@@ -32,15 +49,34 @@ tr td:first-child div {
 
 .row.base {
     background-color: rgb(223, 223, 223);
-    color: rgb(31, 31, 31);
     transition: ease 0.5s;
 }
 
 .row.dark {
     background-color: rgb(31, 31, 31);
-    color: rgb(223, 223, 223);
     transition: ease 0.5s;
 }
+
+.row.lava {
+    background-color: rgb(23, 23, 23);
+    transition: ease 0.5s;
+}
+
+.row.blue {
+    background-color: rgb(164, 203, 255);
+    transition: ease 0.5s;
+}
+
+.row.pink {
+    background-color: rgb(255, 180, 255);
+    transition: ease 0.5s;
+}
+
+.row.xtra {
+    background-color: rgb(255, 255, 255);
+    transition: ease 0.5s;
+}
+
 
 .row div {
     align-items: center;
@@ -62,5 +98,25 @@ table.base {
 
 table.dark {
     border: 2px solid rgb(63, 63, 63);
+    transition: ease 0.5s;
+}
+
+table.lava {
+    border: 2px solid rgb(31, 31, 31);
+    transition: ease 0.5s;
+}
+
+table.blue {
+    border: 2px solid rgb(95, 177, 255);
+    transition: ease 0.5s;
+}
+
+table.pink {
+    border: 2px solid rgb(253, 155, 253);
+    transition: ease 0.5s;
+}
+
+table.xtra {
+    border: 2px solid rgb(0, 0, 0);
     transition: ease 0.5s;
 }

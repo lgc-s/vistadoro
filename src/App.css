@@ -17,7 +17,22 @@ body {
 }
 
 .App.lava {
-    background-color: rgb(15, 15, 15s);
+    background-color: rgb(15, 15, 15);
+    transition: ease 0.5s;
+}
+
+.App.blue {
+    background-color: rgb(189, 223, 255);
+    transition: ease 0.5s;
+}
+
+.App.pink {
+    background-color: rgb(255, 200, 255);
+    transition: ease 0.5s;
+}
+
+.App.xtra {
+    background-color: rgb(255, 255, 255);
     transition: ease 0.5s;
 }
 

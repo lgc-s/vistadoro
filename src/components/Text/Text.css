@@ -28,6 +28,26 @@
     transition: ease 0.5s;
 }
 
+.footer.lava {
+    color: rgb(223, 68, 0);
+    transition: ease 0.5s;
+}    
+
+.footer.blue {
+    color: rgb(31, 95, 223);
+    transition: ease 0.5s;
+}    
+
+.footer.pink {
+    color: rgb(223, 95, 183);
+    transition: ease 0.5s;
+}
+
+.footer.xtra {
+    color: rgb(0, 0, 0);
+    transition: ease 0.5s;
+}
+
 .menu {
     font-family: Outfit;
     font-size: 16px;
@@ -41,6 +61,26 @@
 .menu.dark {
     color: rgb(156, 156, 156);
     transition: ease 0.5s;
+}   
+
+.menu.lava {
+    color: rgb(223, 68, 0);
+    transition: ease 0.5s;
+}
+
+.menu.blue {
+    color: rgb(31, 95, 223);
+    transition: ease 0.5s;
+} 
+
+.menu.pink {
+    color: rgb(223, 95, 183);
+    transition: ease 0.5s;
+} 
+
+.menu.xtra {
+    color: rgb(0, 0, 0);
+    transition: ease 0.5s;
 }
 
 .normal {
@@ -51,10 +91,32 @@
 
 .normal.base {
     color: rgb(63, 63, 63);
+    transition: ease 0.5s;
 }
 
 .normal.dark {
     color: rgb(191, 191, 191);
+    transition: ease 0.5s;
+}
+
+.normal.lava {
+    color: rgb(223, 68, 0);
+    transition: ease 0.5s;
+}
+
+.normal.blue {
+    color: rgb(31, 95, 223);
+    transition: ease 0.5s;
+} 
+
+.normal.pink {
+    color: rgb(223, 95, 183);
+    transition: ease 0.5s;
+}
+
+.normal.xtra {
+    color: rgb(0, 0, 0);
+    transition: ease 0.5s;
 }
 
 .table {
@@ -64,10 +126,32 @@
 
 .table.base {
     color: rgb(31, 31, 31);
+    transition: ease 0.5s;
 }
 
 .table.dark {
     color: rgb(223, 223, 223);
+    transition: ease 0.5s;
+}
+
+.table.lava {
+    color: rgb(223, 68, 0);
+    transition: ease 0.5s;
+}
+
+.table.blue {
+    color: rgb(31, 95, 223);
+    transition: ease 0.5s;
+}
+
+.table.pink {
+    color: rgb(223, 95, 183);
+    transition: ease 0.5s;
+}
+
+.table.xtra {
+    color: rgb(0, 0, 0);
+    transition: ease 0.5s;
 }
 
 .title {
@@ -78,8 +162,30 @@
 
 .title.base {
     color: rgb(31, 31, 31);
+    transition: ease 0.5s;
 }
 
 .title.dark {
     color: rgb(223, 223, 223);
+    transition: ease 0.5s;
+}
+
+.title.lava {
+    color: rgb(223, 68, 0);
+    transition: ease 0.5s;
+}
+
+.title.blue {
+    color: rgb(31, 95, 223);
+    transition: ease 0.5s;
+}
+
+.title.pink {
+    color: rgb(223, 95, 183);
+    transition: ease 0.5s;
+}
+
+.title.xtra {
+    color: rgb(0, 0, 0);
+    transition: ease 0.5s;
 }
