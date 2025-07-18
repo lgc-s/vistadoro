@@ -4,4 +4,24 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 64px;
+    text-align: center;
+}
+
+.content-mobile {
+    display: none;
+    padding: 32px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        display: none;
+    }    
+    .content-mobile {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 64px;
+        text-align: center;
+    }    
 }
