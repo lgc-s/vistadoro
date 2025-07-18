@@ -1,5 +1,5 @@
 export const data = [
-    ["#", "Color"      , "Code"        ],
+    ["#", "Color"      , "Code"            ],
     ["1", "Pure Red"   , "rgb[255,000,000]"],
     ["2", "Pure Green" , "rgb[000,252,000]"],
     ["3", "Pure Blue"  , "rgb[000,000,255]"],
