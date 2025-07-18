@@ -1,5 +1,7 @@
 # Vistadoro
 
+<img width="1568" height="236" alt="vistadoro_banner" src="https://github.com/user-attachments/assets/2fb68db8-9323-4806-a2ab-7a0bcb3506db" />
+
 ## Table of Contents
 
 * [About](#about)
@@ -23,7 +25,7 @@
 
 - All the the unavailable features can be added on the future depending on several factors.
 
-## Prerequsites
+## Prerequisites
 
 To use Vistadoro, ensure you have met the following requirements:
 
