@@ -1,10 +1,9 @@
 import { useContext } from "react";
-import { ThemeContext } from "../Theme/ThemeContext";
-
 import "./Text.css"
 
-export function Text(props) {
+import { ThemeContext } from "../Theme/ThemeContext";
 
+export function Text(props) {
     const { theme } = useContext(ThemeContext);
 
     if (props.type === "Title") {

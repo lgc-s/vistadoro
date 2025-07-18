@@ -1,12 +1,11 @@
 import { useContext } from "react";
-import { ThemeContext } from "../Theme/ThemeContext";
 import "./Button.css";
+
+import { ThemeContext } from "../Theme/ThemeContext";
 
 export function Button(props) {
     const { setTheme } = useContext(ThemeContext);
-
     const themeHandler = () => {
-
         let newTheme = "base";
 
         if (props.type === "Theme 1") {
@@ -27,7 +26,6 @@ export function Button(props) {
     };
 
     const setButton = `button ${props.type.replace(" ", "").toLowerCase()}`;
-
     return (
         <div className={setButton} onClick={themeHandler}>
             {props.children}

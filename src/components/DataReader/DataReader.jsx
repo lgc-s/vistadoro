@@ -1,15 +1,15 @@
-import { data } from "../../data/data";
-import { Text } from '../../components/Text/Text'
 import { useContext } from "react";
-import { ThemeContext } from "../Theme/ThemeContext";
-
 import "./DataReader.css"
 
+import { Text } from '../../components/Text/Text'
+import { ThemeContext } from "../../components/Theme/ThemeContext";
+
+import { data } from "../../data/data";
+
 export function DataReader() {
-    
     const { theme } = useContext(ThemeContext);
-    const head = data[0];
     const content = data.slice(1)
+    const head = data[0];
     
     return (
         <table className={`table ${theme}`}>

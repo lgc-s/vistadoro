@@ -2,36 +2,36 @@ body {
     margin: 0;
 }
 
-.App {
+.app {
     min-height: 100vh;
 }
 
-.App.base {
+.app.base {
     background-color: rgb(247, 247, 247);
     transition: ease 0.5s;
 }
 
-.App.dark {
+.app.dark {
     background-color: rgb(7, 7, 7);
     transition: ease 0.5s;
 }
 
-.App.lava {
+.app.lava {
     background-color: rgb(15, 15, 15);
     transition: ease 0.5s;
 }
 
-.App.blue {
+.app.blue {
     background-color: rgb(189, 223, 255);
     transition: ease 0.5s;
 }
 
-.App.pink {
+.app.pink {
     background-color: rgb(255, 200, 255);
     transition: ease 0.5s;
 }
 
-.App.xtra {
+.app.xtra {
     background-color: rgb(255, 255, 255);
     transition: ease 0.5s;
 }
