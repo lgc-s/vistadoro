@@ -38,15 +38,15 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository:**
 
-    ```bash git clone [https://github.com/lgc-s/vistadoro.git](https://github.com/lgc-s/vistadoro.git)```
+    ```git clone https://github.com/lgc-s/vistadoro.git```
 
 2.  **Navigate into the project directory:**
 
-    ```bashcd vistadoro```
+    ```cd vistadoro```
 
 3.  **Install the project dependencies:**
 
-    ```bash npm install```
+    ```npm install```
 
 ## Running Vistadoro
 
