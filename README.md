@@ -1,6 +1,6 @@
 # Vistadoro
 
-<img width="1568" height="236" alt="vistadoro_banner" src="https://github.com/user-attachments/assets/2fb68db8-9323-4806-a2ab-7a0bcb3506db" />
+<img width="1568" height="236" alt="vistadoro_banner" src="https://github.com/user-attachments/assets/79790be1-6cc2-4743-b047-d14313721ece" />
 
 ## Table of Contents
 
